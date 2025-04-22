@@ -8,21 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBLoan'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SBLoan.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.version          = '0.1'
+  s.summary          = 'Múdulo utilizado no aplicativo SwidtBank para funcionalidade de Empréstimos'
+  s.description      = 'SBLoan é uma biblioteca que permite o usuário acessar sua carteira de crédito disponével'
 
   s.homepage         = 'https://github.com/diegoferreiracaetano/SBLoan'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'diegoferreiracaetano' => 'di.cafe@hotmail.com' }
   s.source           = { :git => 'https://github.com/diegoferreiracaetano/SBLoan.git', :tag => s.version.to_s }
@@ -30,8 +20,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SBLoan/Classes/**/*'
-  
+  s.source_files = 'SBLoan/Classes/**'
+  s.swift_versions = ['5.0']
+
+
   # s.resource_bundles = {
   #   'SBLoan' => ['SBLoan/Assets/*.png']
   # }
