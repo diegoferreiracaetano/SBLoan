@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBLoan'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'Múdulo utilizado no aplicativo SwidtBank para funcionalidade de Empréstimos'
   s.description      = 'SBLoan é uma biblioteca que permite o usuário acessar sua carteira de crédito disponével'
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Sources/SBLoan/**/*'
+s.source_files = 'Classes/**/*'
   s.swift_versions = ['5.0']
 
 
